@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  ui:
+    build: .
+    container_name: shopping-cart-ui
+    ports:
+      - '3001:3001'
